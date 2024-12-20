@@ -4,7 +4,7 @@
 using std::vector;
 using std::isspace;
 
-void Day2Base::ParseInput(vector<string> lines)
+void Day2BaseCommand::ParseInput(vector<string> lines)
 {
 	Data = vector<vector<char>>();
 
@@ -30,7 +30,7 @@ void Day2Base::ParseInput(vector<string> lines)
 	}
 }
 
-bool Day2Base::CheckReport(vector<char> Datum)
+bool Day2BaseCommand::CheckReport(vector<char> Datum)
 {
 	bool ascending = Datum.at(1) > Datum.at(0);
 	for (size_t i = 2; i < Datum.size(); i++) {
@@ -48,7 +48,7 @@ bool Day2Base::CheckReport(vector<char> Datum)
 	return true;
 }
 
-bool Day2Base::CheckReport(vector<char> Datum, size_t skipIndex)
+bool Day2BaseCommand::CheckReport(vector<char> Datum, size_t skipIndex)
 {
 	vector<char> DatumCopy = vector<char>();
 

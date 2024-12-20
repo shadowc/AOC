@@ -7,7 +7,7 @@ using std::string;
 using std::vector;
 
 
-class Day2Base : public BaseCommand
+class Day2BaseCommand : public BaseCommand
 {
 public:
 	virtual void ParseInput(vector<string> lines) override;
