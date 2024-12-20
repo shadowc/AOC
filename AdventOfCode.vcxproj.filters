@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{3665d7bd-e89a-4e4f-8289-60dedd25f9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Day1">
+      <UniqueIdentifier>{4f92c601-b6b5-445f-b1d7-b48c15e12980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Day2">
+      <UniqueIdentifier>{59a12c26-a982-4224-a864-48a545b70422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdventOfCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Runner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day1\Day1Base.cpp">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day1\Day1Part1.cpp">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day1\Day1Part2.cpp">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day2\Day2Base.cpp">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day2\Day2Part1.cpp">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day2\Day2Part2.cpp">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Commands\BaseCommand.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Runner.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day1\Day1Base.h">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day1\Day1Part1.h">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day1\Day1Data.h">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day1\Day1Part2.h">
+      <Filter>Source Files\Commands\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day2\Day2Base.h">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day2\Day2Part1.h">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day2\Day2Part2.h">
+      <Filter>Source Files\Commands\Day2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
