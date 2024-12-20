@@ -11,6 +11,8 @@
 #include "Commands/Day2/Day2Part2.h"
 #include "Commands/Day3/Day3Part1.h"
 #include "Commands/Day3/Day3Part2.h"
+#include "Commands/Day4/Day4Part1.h"
+#include "Commands/Day4/Day4Part2.h"
 
 using std::cout;
 using std::vector;
@@ -34,6 +36,10 @@ Runner::Runner()
 		{
 			new Day3Part1Command(),
 			new Day3Part2Command()
+		},
+		{
+			new Day4Part1Command(),
+			new Day4Part2Command()
 		}
 	};
 }

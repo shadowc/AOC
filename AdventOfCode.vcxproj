@@ -138,6 +138,9 @@
     <ClCompile Include="src\Commands\Day3\Day3Base.cpp" />
     <ClCompile Include="src\Commands\Day3\Day3Part1.cpp" />
     <ClCompile Include="src\Commands\Day3\Day3Part2.cpp" />
+    <ClCompile Include="src\Commands\Day4\Day4Base.cpp" />
+    <ClCompile Include="src\Commands\Day4\Day4Part1.cpp" />
+    <ClCompile Include="src\Commands\Day4\Day4Part2.cpp" />
     <ClCompile Include="src\Runner.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +156,10 @@
     <ClInclude Include="src\Commands\Day3\Day3Data.h" />
     <ClInclude Include="src\Commands\Day3\Day3Part1.h" />
     <ClInclude Include="src\Commands\Day3\Day3Part2.h" />
+    <ClInclude Include="src\Commands\Day4\Day4Base.h" />
+    <ClInclude Include="src\Commands\Day4\Day4Data.h" />
+    <ClInclude Include="src\Commands\Day4\Day4Part1.h" />
+    <ClInclude Include="src\Commands\Day4\Day4Part2.h" />
     <ClInclude Include="src\Runner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

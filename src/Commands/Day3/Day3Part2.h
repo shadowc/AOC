@@ -4,5 +4,7 @@
 
 class Day3Part2Command : public Day3BaseCommand
 {
+public:
 	virtual void Run() override;
+
 };

@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Commands\Day3">
       <UniqueIdentifier>{94f735f9-9285-47e5-8c86-8d22649d95ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Commands\Day4">
+      <UniqueIdentifier>{3218cf93-a4d9-40a6-b9d1-cd21c99a06d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventOfCode.cpp">
@@ -59,6 +62,15 @@
     </ClCompile>
     <ClCompile Include="src\Commands\Day3\Day3Part2.cpp">
       <Filter>Source Files\Commands\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day4\Day4Base.cpp">
+      <Filter>Source Files\Commands\Day4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day4\Day4Part1.cpp">
+      <Filter>Source Files\Commands\Day4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Commands\Day4\Day4Part2.cpp">
+      <Filter>Source Files\Commands\Day4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +112,18 @@
     </ClInclude>
     <ClInclude Include="src\Commands\Day3\Day3Part2.h">
       <Filter>Source Files\Commands\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day4\Day4Base.h">
+      <Filter>Source Files\Commands\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day4\Day4Data.h">
+      <Filter>Source Files\Commands\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day4\Day4Part1.h">
+      <Filter>Source Files\Commands\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day4\Day4Part2.h">
+      <Filter>Source Files\Commands\Day4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

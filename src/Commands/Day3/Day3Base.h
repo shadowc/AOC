@@ -1,6 +1,4 @@
 #pragma once
-
-#pragma once
 #include "Commands/BaseCommand.h"
 #include "Commands/Day3/Day3Data.h"
 #include <vector>
