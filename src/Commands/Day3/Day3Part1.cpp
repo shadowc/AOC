@@ -1,4 +1,5 @@
 #include "Day3Part1.h"
+#include "Day3Data.h"
 #include <iostream>
 
 using std::cout;
@@ -7,7 +8,7 @@ void Day3Part1Command::Run()
 {
 	int mulTotal = 0;
 
-	for (Numbers datum : Data) {
+	for (Mults datum : Data) {
 		mulTotal += datum.Mul;
 	}
 

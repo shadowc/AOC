@@ -57,6 +57,9 @@
     <ClCompile Include="src\Commands\Day3\Day3Part1.cpp">
       <Filter>Source Files\Commands\Day3</Filter>
     </ClCompile>
+    <ClCompile Include="src\Commands\Day3\Day3Part2.cpp">
+      <Filter>Source Files\Commands\Day3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Commands\BaseCommand.h">
@@ -90,6 +93,12 @@
       <Filter>Source Files\Commands\Day3</Filter>
     </ClInclude>
     <ClInclude Include="src\Commands\Day3\Day3Part1.h">
+      <Filter>Source Files\Commands\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day3\Day3Data.h">
+      <Filter>Source Files\Commands\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Commands\Day3\Day3Part2.h">
       <Filter>Source Files\Commands\Day3</Filter>
     </ClInclude>
   </ItemGroup>

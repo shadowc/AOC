@@ -2,7 +2,7 @@
 
 #pragma once
 #include "Commands/BaseCommand.h"
-#include "Commands/Day1/Day1Data.h"
+#include "Commands/Day3/Day3Data.h"
 #include <vector>
 #include <string>
 #include <regex>
@@ -19,7 +19,9 @@ public:
 protected:
 	void ParseLine(string line);
 
-	vector<Numbers> Data;
+	vector<Mults> Data;
 
-	regex MulRegex = regex("mul\\(\\d{1,3}\\,\\d{1,3}\\)");
+	bool DatumIgnored = false;
+
+	regex MulRegex = regex("mul\\(\\d{1,3}\\,\\d{1,3}\\)|do\\(\\)|don\\'t\\(\\)");
 };
