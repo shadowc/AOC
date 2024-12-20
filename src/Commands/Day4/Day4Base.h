@@ -1,6 +1,6 @@
 #pragma once
 #include "Commands/BaseCommand.h"
-// #include "Commands/Day4/Day4Data.h"
+#include "Commands/Day4/Day4Data.h"
 #include <vector>
 #include <string>
 
@@ -15,4 +15,6 @@ public:
 
 protected:
 	vector<string> Data;
+
+	SearchOffset SearchOffsets[8];
 };
