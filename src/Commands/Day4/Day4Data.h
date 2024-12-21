@@ -25,3 +25,22 @@ struct SearchOffset {
 	int OffsetX;
 	int OffsetY;
 };
+
+/**
+ * M   M  -1 -1   1 -1
+ *   A
+ * S   S  -1  1   1  1
+ * 
+ * S   M  
+ *   A
+ * S   M
+ * 
+ * S   S
+ *   A
+ * M   M
+ * 
+ * M   S
+ *   A
+ * M   S
+ */
+

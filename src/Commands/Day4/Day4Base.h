@@ -17,4 +17,9 @@ protected:
 	vector<string> Data;
 
 	SearchOffset SearchOffsets[8];
+
+	string XMasSequence[4];
+
+	SearchOffset XMasOffsets[4];
 };
+

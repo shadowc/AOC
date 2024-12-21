@@ -17,6 +17,16 @@ void Day4BaseCommand::ParseInput(vector<string> lines)
 	SearchOffsets[6] = SearchOffset(-1, 1);
 	SearchOffsets[7] = SearchOffset(1, -1);
 
+	XMasOffsets[0] = SearchOffset(-1, -1);
+	XMasOffsets[1] = SearchOffset(1, -1);
+	XMasOffsets[2] = SearchOffset(1, 1);
+	XMasOffsets[3] = SearchOffset(-1, 1);
+
+	XMasSequence[0] = "MMSS";
+	XMasSequence[1] = "MSSM";
+	XMasSequence[2] = "SSMM";
+	XMasSequence[3] = "SMMS";
+
 	Data = vector<string>();
 
 	for (string line : lines) {
